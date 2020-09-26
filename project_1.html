@@ -33,7 +33,7 @@
 
     <title>Document</title>
 </head>
-<body onclick="changeImage ()">
+<body onclick="changeImage (i)">
     
     <!-- <nav class="ui eleven item menu">
 
@@ -51,6 +51,12 @@
 
 <script>
 
+constlength = 11;
+
+const makediv = (i) => {
+    const div = document.createElement('div');
+            div.className = 'item';
+}
 
 const pathNames = [
         'https://res.cloudinary.com/dyu3p7gmq/image/upload/v1601067929/code_face_haxev5.jpg',
